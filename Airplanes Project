@@ -1,0 +1,23 @@
+Welcome = "        Welcome to Python!"
+print(Welcome)
+
+name = "What is your name?"
+print(name)
+user = input()
+greeting = "Hello " + user +  " welcome to Python.";
+print(greeting)
+
+airplanes = ["Airbus", "Boeing", "Cessna"]
+
+question = input("Do you want to see the airplanes list? (yes/no): ")
+
+
+
+if question  == "yes":
+    print(airplanes)
+
+else: 
+    print("Ok, have a nice day!")
+    
+end = ("     Thanks for using Python!")
+print(end)
